@@ -3,7 +3,7 @@ This repository contains a machine learning model that classifies music into dif
 
 ## File Structure
 The repository is organized as follows:
-music_genre_classifier/
+```music_genre_classifier/
 ├── model/
 │   ├── model.h5
 │   └── model.json
@@ -12,7 +12,7 @@ music_genre_classifier/
 ├── src/
 |   └── predict.py
 ├── requirements.txt
-└── README.md
+└── README.md```
 
 ## Usage
 1. Clone this repository.
