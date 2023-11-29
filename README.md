@@ -1,12 +1,18 @@
 # Music Genre Classifier
 This repository contains a machine learning model that classifies music into different genres. The model is trained on the GTZAN dataset, which consists of 1000 audio tracks each 30 seconds long. The tracks are divided into 10 genres, each represented by 100 tracks. The genres are: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, and rock.
 
-## Requirements
-- Python 3.6 or later
-- TensorFlow 2.0 or later
-- NumPy
-- SciPy
-- Librosa
+## File Structure
+The repository is organized as follows:
+music_genre_classifier/
+├── model/
+│   ├── model.h5
+│   └── model.json
+├── model_training/
+|   └── model_training.ipynb
+├── src/
+|   └── predict.py
+├── requirements.txt
+└── README.md
 
 ## Usage
 1. Clone this repository.
@@ -15,5 +21,3 @@ This repository contains a machine learning model that classifies music into dif
 
 ## Results
 The model achieves an accuracy of 70% on the test set.
-
-## License
