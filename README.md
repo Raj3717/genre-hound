@@ -1,4 +1,4 @@
-# Music Genre Classifier
+# GenreHound
 This repository contains a machine learning model that classifies music into different genres. The model is trained on the GTZAN dataset, which consists of 1000 audio tracks each 30 seconds long. The tracks are divided into 10 genres, each represented by 100 tracks. The genres are: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, and rock.
 
 ## File Structure
